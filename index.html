@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- page title -->
+    <title>Stars Up</title>
+
+    <!-- Css file -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Slick slider CSS - For gallery and team sections -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+</head>
+<body>
+
+<!-- header -->
+<header class="header">
+    <div>
+        <!-- Logo -->
+        <img src="assets/images/geometry-g79b224081_640.png" class="logo" width="50" height="50" alt="">
+         <a class="tag">Stars Up</a>
+    </div>
+    <div>
+        <ul class="list-1">
+            <li><a href="#about" class="link-1">About</a></li>
+            <li><a href="#process" class="link-1">Process</a></li>
+            <li><a href="#contact" class="link-1">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Project Title -->
+<div class="title">
+    <h1>STARS UP</h1>
+</div>
+
+<!-- Main section contains video, gallery and team sections etc. -->
+<section class="main-layout">
+
+    <div class="main-grid">
+
+        <!-- Left Side (Team and 1 image) -->
+        <div class="left">
+
+            <h1>MEET THE TEAM</h1>
+
+             <div class="about-team">
+
+                 <div class="team-div">
+                     <img src="assets/images/shahad%207.webp" class="team-img" alt="">
+                     <h2>Shahad Alsaqqaf </h2>
+                     <p>Sophomore in NYUAD majoring in Interactive Media</p>
+                 </div>
+
+                 <div class="team-div">
+                     <img src="assets/images/Luke.webp"  class="team-img" alt="">
+                     <h2>Luke Nguyen</h2>
+                     <p>Sophomore in NYUAD majoring in Film</p>
+                 </div>
+
+                 <div class="team-div">
+                     <img src="assets/images/IMG_0158.jpg"  class="team-img" alt="">
+                     <h2>Dhabia AlHosani</h2>
+                     <p>Junior in NYUAD majoring in Interactive Media and Film</p>
+                 </div>
+
+             </div>
+
+            <div>
+                <img src="assets/images/image.img.jpg" class="about-img" alt="">
+            </div>
+
+        </div>
+
+        <!-- Middle (Video and objectives) -->
+        <div class="middle">
+
+            <!-- Video title -->
+            <h1>LOOK UP FROM YOUR PHONE</h1>
+            <video width="100%" controls id="myvideo">
+                <source src="assets/images/LookUp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="objective">
+                <p>The video aims to raise awareness to the NYUAD community as a whole to “look up” from their phones and try to interact with others in the real life instead of being stuck in the virtual one. The aim of combining multiple clips of people scrolling endlessly through their phones is to give those people a wake-up call of this behavior that we are all guilty off but will be working on.
+                </p>
+                <br>
+                <p><b>Video Credit: </b>Shahad Alsaqqaf
+                   | Luke Nguyen
+                   | Dhabia AlHosani
+                </p>
+            </div>
+        </div>
+
+        <!-- Right side (Gallery and 1 image) -->
+        <div class="right">
+            <h1>GALLERY</h1>
+
+            <div class="about-team">
+
+                <div class="team-div">
+                    <img src="assets/images/pexels-felix-mittermeier-957917.jpg" class="gallery-img" alt="">
+                </div>
+
+                <div class="team-div">
+                    <img src="assets/images/pexels-matheus-bertelli-573238.webp" class="gallery-img" alt="">
+                </div>
+
+                <div class="team-div">
+                    <img src="assets/images/pexels-mikotoraw-photographer-3367850.jpg" class="gallery-img" alt="">
+                </div>
+
+            </div>
+
+            <div>
+                <img src="assets/images/pexels-roman-odintsov-4555321.webp" class="about-img" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Project Description -->
+<section class="project-description" id="about">
+    <h1>Project Description</h1>
+    <p>This project investigates the NYUAD community's collective behavior in the excessive use of mobile phones and the virtual world. By emphasizing mundane campus life in the early morning, there is a noticeable pattern of people walking around with their phones only.
+    </p>
+</section>
+
+<!-- Process and behind the scene images -->
+<section class="process-behind" id="process">
+
+    <!-- process description -->
+        <div>
+            <h1 class="p-heading">Process</h1>
+            <p class="p-text">
+                The project was inspired by friends in the NYUAD community who refused to socialize in places like the dining hall (D2), The Palms, or even on their way to class. The student body has abused the use of mobile phones and social media, even when other friends are present in the same setting. The conundrum is a collective behavior that cannot be attributed to a single person. Dhabia, Luke, and I set out to different parts of campus to document the daily occurrence of this behavior. I combined the videos, edited them in IMovie, and then recorded a voice over for the video.
+            </p>
+        </div>
+
+    <br>
+    <br>
+    <h1 class="p-heading">Behind The Scenes</h1>
+
+    <!-- Behind the scene images -->
+    <div class="behind-grid">
+        <div>
+            <img src="assets/images/IMG_0158.jpg" class="behind-img" id="img-1"  onclick="openFullscreen();" alt="">
+        </div>
+        <div>
+            <img src="assets/images/IMG_0867.jpg" class="behind-img" id="img-2"  onclick="openFullscreen2();" alt="">
+        </div>
+        <div>
+            <img src="assets/images/IMG_0868.jpg" class="behind-img" id="img-3" onclick="openFullscreen3();" alt="">
+        </div>
+    </div>
+
+    <div class="behind-grid">
+        <div>
+            <img src="assets/images/IMG_0869.jpg" class="behind-img" id="img-4" onclick="openFullscreen4();" alt="">
+        </div>
+        <div>
+            <img src="assets/images/IMG_0870.jpg" class="behind-img" id="img-5" onclick="openFullscreen5();" alt="">
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <!-- Behind the scene images (end) -->
+
+</section>
+
+<!-- Connect with SLICE section -->
+<section class="banner">
+<h1>I looked up from my phone.. Now what? </h1>
+    <br>
+   <a href="https://shibboleth.nyu.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1" target="_blank" class="button">Connect with SLICE</a>
+</section>
+
+<!-- contact section -->
+<footer class="footer" id="contact">
+    <div class="footer-div">
+        <div><p>Sign: New York University Abu Dhabi, Communications Lab
+
+            Fall 2022</p></div>
+
+        <div>
+
+            <ul>
+                <li><a href="mailto:ska6986@nyu.edu ">Email: ska6986@nyu.edu</a></li>
+                <li><a href="https://www.instagram.com/im_nyuad" target="_blank">Instagram: @im_nyuad</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Scripts for Slick Slider -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/JS/slick.min.js"></script>
+
+<!-- Script.Js linking (For full screen image view) -->
+<script src="assets/JS/script.js" type="text/javascript"></script>
+
+<!-- Script initialization for Slick Slider -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.about-team').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:true
+        });
+    });
+</script>
+
+</body>
+</html>

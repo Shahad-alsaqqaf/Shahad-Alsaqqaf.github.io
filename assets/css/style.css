@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#e9edf8;
+    padding: 20px 40px;
+    height: 30px;
+}
+.logo{
+    position: relative;
+    top: -10px;
+}
+.list-1{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    top: 5px;
+}
+.link-1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+.about{
+    margin: 40px 40px;
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.title{
+    background-color: #2b4f71;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New";
+    color: #e9edf8;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin: 40px 40px;
+}
+.team-div{
+    background-color: #e9edf8;
+    text-align: center;
+}
+.team-img{
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}
+.team-div h2{
+    padding-top: 10px;
+    font-family: "Courier New";
+}
+.team-div p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: "Times New Roman";
+}
+.about-img{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.left h1{
+    background-color: #2b4f71;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New";
+    color: #e9edf8;
+}
+.middle{
+    margin: 0 20px;
+}
+.middle h1{
+    background-color: #2b4f71;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New";
+    color: #e9edf8;
+}
+.tag{
+    position: relative;
+    top: -30px;
+    left: 10px;
+    font-family: "Courier New";
+    font-weight: bold;
+}
+.right h1{
+    background-color: #2b4f71;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Courier New";
+    color: #e9edf8;
+}
+.objective{
+    background-color: #e9edf8;
+    padding: 20px;
+    font-family: "Times New Roman";
+}
+.objective p{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+}
+.gallery-img{
+    width: 100%;
+    height: 340px !important;
+}
+.project-description{
+    background-color: #2b4f71;
+    text-align: center;
+    color: #e9edf8;
+    padding: 40px;
+}
+.project-description h1{
+    font-size: 40px;
+    font-family: "Courier New";
+}
+.project-description p{
+    font-size: 22px;
+    padding-top: 20px;
+    font-family: "Times New Roman";
+    max-width: 60%;
+    margin:  0 auto;
+    line-height: 35px;
+}
+
+.process-behind{
+    margin: 40px;
+    text-align: center;
+}
+.p-heading{
+    font-size: 40px;
+    font-family: "Courier New";
+}
+.p-text{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    max-width: 60%;
+    margin:  0 auto;
+}
+.banner{
+    background-color: #2b4f71;
+    text-align: center;
+    color: #e9edf8;
+    padding: 40px;
+}
+.button{
+    background-color: #e9edf8;
+    margin-top: 60px;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color: #e9edf8;
+    padding: 20px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.footer-div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.behind-grid{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.behind-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
